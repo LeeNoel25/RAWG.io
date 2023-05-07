@@ -8,6 +8,8 @@ export interface Platform {
     slug: string;
 }
 
+// inspect > network > Fetch/XHR > Preview > games?key > results > {0} > id/name/background_image/parent_platforms/metacritic
+
 export interface Game { 
     id: number;
     name: string;
